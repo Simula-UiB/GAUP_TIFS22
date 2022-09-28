@@ -1,4 +1,5 @@
 Calculations on synthetic Gaussian data. The method produces an estimate of the rate-distortion curve for downloading N=1,2,3,4 files.
+The code has been written for and tested on Ubuntu Linux but it can be easily adapted to other platforms (mostly, changing the compiler and `run_all` script to something similar.
 
 # Compression-based
 The compression-based approach is implemented in two files:
