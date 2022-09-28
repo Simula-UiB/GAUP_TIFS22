@@ -1,0 +1,181 @@
+Summary of the parameters read:
+  beta        3
+  N           1
+  fname_train gauss_data_csv/gaussTrain1M_N1.csv
+  fname_test  gauss_data_csv/gaussTest100k_N1.csv
+  num_repeat  5
+[INFO] read 1000000 training entries
+[INFO] penulitmate entry: [0.8633,-2.6717,-1.4663]
+[INFO] last entry:        [3.1896,1.5652,-0.6838]
+[INFO] read 100000 test entries
+[INFO] penulimate entry: [-1.1915,2.3206,1.4366]
+[INFO] last entry:       [1.4148,-1.4765,1.2858]
+[INFO] there are 96 cores available.
+=================================================
+[INFO] r=0, num_clusters=1
+  REPETITION 1 OUT OF 5
+distortion: 18.707
+distortion: 9.00132
+distortion: 9.00132
+  REPETITION 2 OUT OF 5
+distortion: 19.4592
+distortion: 9.00132
+distortion: 9.00132
+  REPETITION 3 OUT OF 5
+distortion: 9.27584
+distortion: 9.00132
+distortion: 9.00132
+  REPETITION 4 OUT OF 5
+distortion: 10.5619
+distortion: 9.00132
+distortion: 9.00132
+  REPETITION 5 OUT OF 5
+distortion: 23.3633
+distortion: 9.00132
+distortion: 9.00132
+Test distortion: 9.01143
+=================================================
+[INFO] r=6, num_clusters=64
+  REPETITION 1 OUT OF 5
+distortion: 1.32637
+distortion: 1.04811
+distortion: 0.992316
+distortion: 0.969217
+distortion: 0.956113
+distortion: 0.947742
+distortion: 0.942039
+distortion: 0.937972
+distortion: 0.934916
+distortion: 0.932529
+distortion: 0.930616
+distortion: 0.929032
+distortion: 0.927701
+distortion: 0.926542
+distortion: 0.925521
+distortion: 0.924622
+  REPETITION 2 OUT OF 5
+distortion: 1.48855
+distortion: 1.11707
+distortion: 1.02728
+distortion: 0.991886
+distortion: 0.973396
+distortion: 0.962191
+distortion: 0.954361
+distortion: 0.948219
+distortion: 0.943029
+distortion: 0.938627
+distortion: 0.934953
+distortion: 0.931963
+distortion: 0.929534
+distortion: 0.927579
+distortion: 0.925972
+distortion: 0.924625
+distortion: 0.923499
+distortion: 0.92255
+  REPETITION 3 OUT OF 5
+distortion: 1.32213
+distortion: 1.07612
+distortion: 1.01495
+distortion: 0.987295
+distortion: 0.969767
+distortion: 0.958019
+distortion: 0.950182
+distortion: 0.944659
+distortion: 0.940409
+distortion: 0.936959
+distortion: 0.934092
+distortion: 0.931652
+distortion: 0.929545
+distortion: 0.927727
+distortion: 0.926118
+distortion: 0.924652
+distortion: 0.923347
+distortion: 0.922204
+distortion: 0.921212
+  REPETITION 4 OUT OF 5
+distortion: 1.44485
+distortion: 1.11488
+distortion: 1.03498
+distortion: 1.00025
+distortion: 0.980644
+distortion: 0.967769
+distortion: 0.958542
+distortion: 0.951571
+distortion: 0.946066
+distortion: 0.941712
+distortion: 0.938246
+distortion: 0.935496
+distortion: 0.933326
+distortion: 0.931526
+distortion: 0.929968
+distortion: 0.9286
+distortion: 0.927382
+distortion: 0.92629
+distortion: 0.925299
+  REPETITION 5 OUT OF 5
+distortion: 1.40064
+distortion: 1.10966
+distortion: 1.02288
+distortion: 0.984407
+distortion: 0.964036
+distortion: 0.952414
+distortion: 0.945164
+distortion: 0.940296
+distortion: 0.936834
+distortion: 0.934168
+distortion: 0.932063
+distortion: 0.930392
+distortion: 0.929083
+distortion: 0.927997
+distortion: 0.927095
+Test distortion: 0.917355
+=================================================
+[INFO] r=12, num_clusters=4096
+  REPETITION 1 OUT OF 5
+distortion: 0.109003
+distortion: 0.0858155
+distortion: 0.0794132
+distortion: 0.076367
+distortion: 0.0744431
+distortion: 0.0730599
+distortion: 0.0719966
+distortion: 0.0711581
+  REPETITION 2 OUT OF 5
+distortion: 0.109141
+distortion: 0.0872547
+distortion: 0.0808473
+distortion: 0.0776475
+distortion: 0.0756008
+distortion: 0.074157
+distortion: 0.0730652
+distortion: 0.0721872
+  REPETITION 3 OUT OF 5
+distortion: 0.110688
+distortion: 0.0874626
+distortion: 0.0810553
+distortion: 0.0778909
+distortion: 0.0758589
+distortion: 0.0743941
+distortion: 0.0732458
+distortion: 0.0723028
+  REPETITION 4 OUT OF 5
+distortion: 0.108796
+distortion: 0.0859391
+distortion: 0.0794097
+distortion: 0.0762691
+distortion: 0.0743346
+distortion: 0.0729549
+distortion: 0.0718929
+distortion: 0.0710578
+  REPETITION 5 OUT OF 5
+distortion: 0.111554
+distortion: 0.0875953
+distortion: 0.0807104
+distortion: 0.0774758
+distortion: 0.0754525
+distortion: 0.0740021
+distortion: 0.0728809
+distortion: 0.0719799
+Test distortion: 0.0718291
+
+RD curve found: [[0,9.01143],[2,0.917355],[4,0.0718291]]

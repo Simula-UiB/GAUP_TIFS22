@@ -1,0 +1,285 @@
+Summary of the parameters read:
+  beta        3
+  N           4
+  fname_train gauss_data_csv/gaussTrain1M_N4.csv
+  fname_test  gauss_data_csv/gaussTest100k_N4.csv
+  num_repeat  5
+[INFO] read 250000 training entries
+[INFO] penulitmate entry: [3.148,-4.0493,0.8284,5.561,2.5626,-2.1189,0.3305,-3.1785,-4.0672,0.8633,-2.6717,-1.4663]
+[INFO] last entry:        [-0.722,-0.1871,3.0083,0.4801,-2.0398,-2.226,1.7786,5.9013,0.2561,3.1896,1.5652,-0.6838]
+[INFO] read 25000 test entries
+[INFO] penulimate entry: [0.794,1.3632,1.5974,0.1478,3.8587,0.4877,-0.5792,-2.0759,2.6011,-1.1915,2.3206,1.4366]
+[INFO] last entry:       [4.4021,-6.5174,4.9032,2.6416,2.3936,-0.3472,0.8768,9.2237,-4.472,1.4148,-1.4765,1.2858]
+[INFO] there are 96 cores available.
+=================================================
+[INFO] r=0, num_clusters=1
+  REPETITION 1 OUT OF 5
+distortion: 16.648
+distortion: 9.00132
+distortion: 9.00132
+  REPETITION 2 OUT OF 5
+distortion: 17.7405
+distortion: 9.00132
+distortion: 9.00132
+  REPETITION 3 OUT OF 5
+distortion: 21.7213
+distortion: 9.00132
+distortion: 9.00132
+  REPETITION 4 OUT OF 5
+distortion: 16.0716
+distortion: 9.00132
+distortion: 9.00132
+  REPETITION 5 OUT OF 5
+distortion: 17.3686
+distortion: 9.00132
+distortion: 9.00132
+Test distortion: 9.01143
+=================================================
+[INFO] r=6, num_clusters=64
+  REPETITION 1 OUT OF 5
+distortion: 6.33839
+distortion: 5.51631
+distortion: 5.41426
+distortion: 5.37897
+distortion: 5.36206
+distortion: 5.35142
+distortion: 5.34374
+distortion: 5.33764
+distortion: 5.33274
+distortion: 5.32863
+distortion: 5.32512
+distortion: 5.32205
+distortion: 5.31948
+distortion: 5.31716
+distortion: 5.31505
+distortion: 5.31317
+distortion: 5.31147
+distortion: 5.31002
+distortion: 5.30865
+distortion: 5.30737
+distortion: 5.30617
+distortion: 5.30504
+distortion: 5.30401
+distortion: 5.30307
+  REPETITION 2 OUT OF 5
+distortion: 6.5306
+distortion: 5.51644
+distortion: 5.41042
+distortion: 5.37513
+distortion: 5.35765
+distortion: 5.34691
+distortion: 5.3393
+distortion: 5.33339
+distortion: 5.32854
+distortion: 5.32452
+distortion: 5.32104
+distortion: 5.318
+distortion: 5.31545
+distortion: 5.31324
+distortion: 5.31129
+distortion: 5.30962
+distortion: 5.30816
+distortion: 5.3068
+distortion: 5.30555
+distortion: 5.30439
+distortion: 5.30331
+distortion: 5.30234
+  REPETITION 3 OUT OF 5
+distortion: 6.55073
+distortion: 5.53414
+distortion: 5.41922
+distortion: 5.38017
+distortion: 5.36153
+distortion: 5.3499
+distortion: 5.34163
+distortion: 5.33543
+distortion: 5.33064
+distortion: 5.32681
+distortion: 5.32378
+distortion: 5.3213
+distortion: 5.31913
+distortion: 5.31726
+distortion: 5.31562
+distortion: 5.31412
+distortion: 5.31279
+distortion: 5.31153
+distortion: 5.31038
+distortion: 5.30933
+distortion: 5.30832
+distortion: 5.30732
+  REPETITION 4 OUT OF 5
+distortion: 6.29152
+distortion: 5.54493
+distortion: 5.42009
+distortion: 5.37834
+distortion: 5.35949
+distortion: 5.34835
+distortion: 5.34069
+distortion: 5.33488
+distortion: 5.33014
+distortion: 5.32627
+distortion: 5.32298
+distortion: 5.3201
+distortion: 5.31759
+distortion: 5.31527
+distortion: 5.31315
+distortion: 5.31134
+distortion: 5.30973
+distortion: 5.30826
+distortion: 5.30693
+distortion: 5.30569
+distortion: 5.30452
+distortion: 5.30343
+distortion: 5.30244
+  REPETITION 5 OUT OF 5
+distortion: 6.25857
+distortion: 5.49536
+distortion: 5.40388
+distortion: 5.37149
+distortion: 5.35543
+distortion: 5.34514
+distortion: 5.33776
+distortion: 5.33216
+distortion: 5.32779
+distortion: 5.32417
+distortion: 5.3212
+distortion: 5.31862
+distortion: 5.31644
+distortion: 5.31456
+distortion: 5.3129
+distortion: 5.3114
+distortion: 5.31005
+distortion: 5.30881
+distortion: 5.30764
+distortion: 5.3065
+distortion: 5.30543
+distortion: 5.30446
+Test distortion: 5.3232
+=================================================
+[INFO] r=12, num_clusters=4096
+  REPETITION 1 OUT OF 5
+distortion: 2.95965
+distortion: 2.7735
+distortion: 2.6984
+distortion: 2.65833
+distortion: 2.63291
+distortion: 2.61538
+distortion: 2.60272
+distortion: 2.59284
+distortion: 2.58491
+distortion: 2.57859
+distortion: 2.57343
+distortion: 2.56919
+distortion: 2.56562
+distortion: 2.56257
+distortion: 2.55985
+distortion: 2.55741
+distortion: 2.55529
+distortion: 2.55343
+distortion: 2.55179
+distortion: 2.55031
+distortion: 2.54903
+distortion: 2.54793
+distortion: 2.54698
+  REPETITION 2 OUT OF 5
+distortion: 2.95767
+distortion: 2.77468
+distortion: 2.69939
+distortion: 2.65893
+distortion: 2.63321
+distortion: 2.61552
+distortion: 2.60259
+distortion: 2.59295
+distortion: 2.58521
+distortion: 2.57893
+distortion: 2.57377
+distortion: 2.5695
+distortion: 2.56588
+distortion: 2.56272
+distortion: 2.56007
+distortion: 2.55779
+distortion: 2.55584
+distortion: 2.55405
+distortion: 2.55242
+distortion: 2.55101
+distortion: 2.54972
+distortion: 2.54857
+distortion: 2.5475
+distortion: 2.54649
+distortion: 2.54562
+  REPETITION 3 OUT OF 5
+distortion: 2.96215
+distortion: 2.77559
+distortion: 2.69884
+distortion: 2.65825
+distortion: 2.63274
+distortion: 2.6152
+distortion: 2.60243
+distortion: 2.5927
+distortion: 2.58497
+distortion: 2.57884
+distortion: 2.57384
+distortion: 2.56974
+distortion: 2.56635
+distortion: 2.56335
+distortion: 2.56068
+distortion: 2.55833
+distortion: 2.5563
+distortion: 2.5545
+distortion: 2.55296
+distortion: 2.55158
+distortion: 2.55034
+distortion: 2.54919
+distortion: 2.54814
+distortion: 2.54716
+  REPETITION 4 OUT OF 5
+distortion: 2.96183
+distortion: 2.77479
+distortion: 2.69897
+distortion: 2.65882
+distortion: 2.63361
+distortion: 2.61612
+distortion: 2.60305
+distortion: 2.59298
+distortion: 2.58501
+distortion: 2.57869
+distortion: 2.57335
+distortion: 2.56893
+distortion: 2.56514
+distortion: 2.56198
+distortion: 2.55928
+distortion: 2.55697
+distortion: 2.55496
+distortion: 2.55326
+distortion: 2.55176
+distortion: 2.55039
+distortion: 2.54919
+distortion: 2.54814
+distortion: 2.54717
+  REPETITION 5 OUT OF 5
+distortion: 2.96179
+distortion: 2.77541
+distortion: 2.70019
+distortion: 2.66014
+distortion: 2.63469
+distortion: 2.61697
+distortion: 2.60395
+distortion: 2.59376
+distortion: 2.58569
+distortion: 2.57922
+distortion: 2.5739
+distortion: 2.56955
+distortion: 2.56599
+distortion: 2.5629
+distortion: 2.56024
+distortion: 2.55794
+distortion: 2.55593
+distortion: 2.55417
+distortion: 2.55262
+distortion: 2.55121
+distortion: 2.54999
+distortion: 2.54892
+distortion: 2.54794
+Test distortion: 2.8366
+
+RD curve found: [[0,9.01143],[2,5.3232],[4,2.8366]]
