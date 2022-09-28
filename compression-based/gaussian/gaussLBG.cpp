@@ -87,6 +87,7 @@ int main(int argc, char **argv) {
     cout << "[INFO] there are " << num_cores << " cores available." << endl;
 
     vector<vector<Real>> RDcurve;
+    // r is the number of bits to quantise to
     // for (int r = 0; r <= 6; r++) {
     for (int r : {0, 2 * beta, 4 * beta}) {
         int num_clusters = (1 << r);

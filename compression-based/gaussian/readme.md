@@ -1,4 +1,4 @@
-Calculations on synthetic Gaussian data
+Calculations on synthetic Gaussian data. The method produces an estimate of the rate-distortion curve for downloading N=1,2,3,4 files.
 
 # Compression-based
 The compression-based approach is implemented in two files:
@@ -41,4 +41,4 @@ export OMP_NUM_THREADS=4
 up to the number of cores you would like to use for the computation. It doesn't make sense to make it larger than the number of cores you have in your system. 
 Also, perhaps, leave one or two cores for the rest of the system to run.
 
-The results will be output to the files `N1.log`..`N4.log`
+The results will be output to the files `N1.log`..`N4.log` in `output` folder.
