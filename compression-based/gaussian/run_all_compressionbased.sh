@@ -1,7 +1,7 @@
 #!/bin/bash
 
 export OMP_NUM_THREADS=4
-echo "Number of threads: $OMP_NUM_THREADS"
+echo "Number of threads: $OMP_NUM_THREADS (applicable only if compiled with OpenMP)"
 
 for N in {1..4}
 do
